@@ -1,0 +1,56 @@
+{
+  "headline1": "KIẾN TẠO GIÁ TRỊ",
+  "headline2": "LÀM CHỦ TƯƠNG LAI",
+  "sloganEn": "Creating Value – Owning the Future",
+  "description": "ApecGlobal đầu tư vào các lĩnh vực trọng điểm,\nkiến tạo giá trị bền vững và đồng hành cùng\nsự phát triển thịnh vượng.",
+  "backgroundImage": "/images/intro-background.png",
+  "enterButtonText": "VÀO TRANG CHỦ",
+  "navButtons": [
+    {
+      "icon": "/uploads/1778481417083-vhd8gd.jpg",
+      "label": "GIỚI THIỆU",
+      "sub": "TỔNG QUAN",
+      "href": "/gioi-thieu"
+    },
+    {
+      "icon": "📊",
+      "label": "DỰ ÁN",
+      "sub": "ĐÃ ĐẦU TƯ",
+      "href": "/du-an"
+    },
+    {
+      "icon": "🛡️",
+      "label": "CHÍNH SÁCH",
+      "sub": "ĐẦU TƯ",
+      "href": "/chinh-sach-dau-tu"
+    },
+    {
+      "icon": "🤝",
+      "label": "CHÍNH SÁCH",
+      "sub": "HỢP TÁC",
+      "href": "/chinh-sach-hop-tac"
+    }
+  ],
+  "bottomItems": [
+    {
+      "icon": "🎯",
+      "title": "TẦM NHÌN",
+      "desc": "Trở thành nhà đầu tư\nUy tín – Hiệu quả – Bền vững"
+    },
+    {
+      "icon": "💡",
+      "title": "SỨ MỆNH",
+      "desc": "Kiến tạo giá trị cho nhà đầu tư,\nđối tác và cộng đồng"
+    },
+    {
+      "icon": "📈",
+      "title": "GIÁ TRỊ CỐT LÕI",
+      "desc": "Chính trực – Chuyên nghiệp\nHiệu quả – Hợp tác – Bền vững"
+    },
+    {
+      "icon": "🌐",
+      "title": "PHẠM VI HOẠT ĐỘNG",
+      "desc": "Đầu tư và hợp tác\ntại Việt Nam và các\nthị trường tiềm năng"
+    }
+  ]
+}

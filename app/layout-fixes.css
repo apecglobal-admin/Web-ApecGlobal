@@ -1,0 +1,20 @@
+/* APEC Global – Core Layout Fixes */
+
+/* Responsive grid for investment areas */
+@media (max-width: 1024px) {
+  .invest-grid { grid-template-columns: repeat(3, 1fr) !important; }
+}
+@media (max-width: 640px) {
+  .invest-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .news-contact-grid { grid-template-columns: 1fr !important; }
+  .about-grid { grid-template-columns: 1fr !important; }
+  .model-grid { grid-template-columns: 1fr !important; }
+  .ecosystem-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .stats-flex { flex-wrap: wrap !important; }
+  .stats-flex > * { flex: 0 0 50% !important; }
+  .projects-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+@media (max-width: 400px) {
+  .invest-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .stats-flex > * { flex: 0 0 100% !important; }
+}

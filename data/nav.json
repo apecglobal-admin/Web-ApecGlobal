@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "label": "TRANG CHỦ",
+    "href": "/"
+  },
+  {
+    "id": "2",
+    "label": "GIỚI THIỆU",
+    "href": "/gioi-thieu"
+  },
+  {
+    "id": "3",
+    "label": "HỆ SINH THÁI",
+    "href": "/he-sinh-thai"
+  },
+  {
+    "id": "4",
+    "label": "DỰ ÁN",
+    "href": "/du-an"
+  },
+  {
+    "id": "5",
+    "label": "CHÍNH SÁCH ĐẦU TƯ",
+    "href": "/chinh-sach-dau-tu"
+  },
+  {
+    "id": "6",
+    "label": "CHÍNH SÁCH HỢP TÁC",
+    "href": "/chinh-sach-hop-tac"
+  },
+  {
+    "id": "7",
+    "label": "TIN TỨC",
+    "href": "/tin-tuc"
+  },
+  {
+    "id": "8",
+    "label": "LIÊN HỆ",
+    "href": "/lien-he"
+  }
+]

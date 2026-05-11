@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "icon": "💻",
+    "title": "CÔNG NGHỆ",
+    "sub": "Core System",
+    "color": "#1d4ed8",
+    "items": [
+      "Siêu ứng dụng",
+      "AI & Blockchain",
+      "Hạ tầng Supabase"
+    ],
+    "img": "/images/area-tech.jpg"
+  },
+  {
+    "id": "2",
+    "icon": "⚙️",
+    "title": "VẬN HÀNH & DỊCH VỤ",
+    "sub": "Operations",
+    "color": "#15803d",
+    "items": [
+      "Hệ thống ERP",
+      "Apec BCI & Life Care",
+      "Ví Apec Wallet"
+    ],
+    "img": "/images/area-manufacturing.jpg"
+  },
+  {
+    "id": "3",
+    "icon": "🛒",
+    "title": "THƯƠNG MẠI",
+    "sub": "Experience",
+    "color": "#c2410c",
+    "items": [
+      "Sàn TMĐT Apec",
+      "Siêu thị ECOOP",
+      "Mô hình O2O"
+    ],
+    "img": "/images/area-logistics.jpg"
+  }
+]

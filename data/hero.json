@@ -1,0 +1,14 @@
+{
+  "title1": "KIẾN TẠO GIÁ TRỊ",
+  "title2": "ĐỘT PHÁ CÔNG NGHỆ",
+  "description": "ApecGlobal là đơn vị hợp danh chiến lược giữa Công ty Tài chính IMP Holding (Hoa Kỳ) và Công ty CP Tập đoàn Kinh tế ApecGlobal. Chúng tôi tự hào mang đến nền tảng phát triển toàn diện, giúp xã hội vươn lên theo mô hình: Kinh tế chia sẻ – Kinh tế cộng đồng – Kinh tế tuần hoàn (Mô hình 3W).",
+  "backgroundImage": "/images/hero-bg.jpg",
+  "cta1": {
+    "label": "TÌM HIỂU HỆ SINH THÁI",
+    "href": "/he-sinh-thai"
+  },
+  "cta2": {
+    "label": "ĐĂNG KÝ HỢP TÁC",
+    "href": "/lien-he"
+  }
+}

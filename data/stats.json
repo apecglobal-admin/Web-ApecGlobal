@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "icon": "MapPin",
+    "value": "34",
+    "label": "Tỉnh thành phủ sóng"
+  },
+  {
+    "id": "2",
+    "icon": "Users",
+    "value": "1.000.000+",
+    "label": "Mạng lưới thành viên"
+  },
+  {
+    "id": "3",
+    "icon": "Star",
+    "value": "100+",
+    "label": "Leader nòng cốt"
+  },
+  {
+    "id": "4",
+    "icon": "Globe2",
+    "value": "5+",
+    "label": "Đối tác toàn cầu"
+  }
+]

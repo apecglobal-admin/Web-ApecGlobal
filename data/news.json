@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Apec Global đón nhận gói rót vốn 5 triệu USD từ Quỹ UNIEEDC",
+    "cat": "Tin Hợp tác",
+    "date": "15/03/2026",
+    "img": "/images/news-1.jpg",
+    "excerpt": "Apec Global tiên phong kiến tạo mô hình “Kinh tế tuần hoàn 3W” tại Việt Nam và đón nhận gói rót vốn 5 triệu USD từ Quỹ UNIEEDC.",
+    "readTime": "3 phút",
+    "content": "Chi tiết bài viết..."
+  },
+  {
+    "id": "2",
+    "title": "Ra mắt siêu ứng dụng APEC SPACE tích hợp AI Agent",
+    "cat": "Tin Công nghệ",
+    "date": "10/03/2026",
+    "img": "/images/news-2.jpg",
+    "excerpt": "Ra mắt siêu ứng dụng APEC SPACE: Kỷ nguyên mới của siêu ứng dụng 3D và mua sắm tích hợp AI Agent.",
+    "readTime": "2 phút",
+    "content": "Chi tiết bài viết..."
+  },
+  {
+    "id": "3",
+    "title": "Ra mắt thẻ an sinh 3IN1 và Apec Business",
+    "cat": "Tin Cộng đồng",
+    "date": "05/03/2026",
+    "img": "/images/news-3.jpg",
+    "excerpt": "Tập đoàn ApecGlobal ra mắt thẻ an sinh 3IN1 và Apec Business – Hướng tới cộng đồng và khởi nghiệp trẻ.",
+    "readTime": "4 phút",
+    "content": "Chi tiết bài viết..."
+  }
+]

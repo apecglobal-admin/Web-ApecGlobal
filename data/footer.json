@@ -1,0 +1,29 @@
+{
+  "columns": [
+    {
+      "title": "VỀ CHÚNG TÔI",
+      "links": [
+        { "label": "Giới thiệu", "href": "/gioi-thieu" },
+        { "label": "Tầm nhìn & Sứ mệnh", "href": "/gioi-thieu" },
+        { "label": "Bộ Gen Lãnh Đạo", "href": "/gioi-thieu" }
+      ]
+    },
+    {
+      "title": "HỆ SINH THÁI",
+      "links": [
+        { "label": "Siêu ứng dụng APEC SPACE", "href": "/he-sinh-thai" },
+        { "label": "Chuỗi siêu thị ECOOP", "href": "/he-sinh-thai" },
+        { "label": "Thẻ An sinh 3IN1", "href": "/he-sinh-thai" }
+      ]
+    },
+    {
+      "title": "WEBSITE LIÊN KẾT",
+      "links": [
+        { "label": "Tập đoàn: apecglobal.net", "href": "https://apecglobal.net" },
+        { "label": "Tập đoàn: apecglobal.vn", "href": "https://apecglobal.vn" },
+        { "label": "Sàn TMĐT: ecoop.vn", "href": "https://ecoop.vn" }
+      ]
+    }
+  ],
+  "copyright": "© 2026 CÔNG TY CP TẬP ĐOÀN KINH TẾ APECGLOBAL. All rights reserved."
+}

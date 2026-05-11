@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "name": "Siêu ứng dụng APEC SPACE",
+    "sector": "Công nghệ",
+    "status": "Đang vận hành",
+    "loc": "Toàn quốc",
+    "cap": "200 tỷ",
+    "year": "2024",
+    "img": "/images/area-tech.jpg",
+    "desc": "Super App thế kỷ 4.0 tích hợp siêu thị không gian 3D, thanh toán ví App-in-App, và AI Agent tự động chăm sóc khách hàng."
+  },
+  {
+    "id": "2",
+    "name": "Chuỗi siêu thị ECOOP",
+    "sector": "Thương mại",
+    "status": "Đang triển khai",
+    "loc": "34 Tỉnh thành",
+    "cap": "500 tỷ",
+    "year": "2025",
+    "img": "/images/area-logistics.jpg",
+    "desc": "Hệ thống chuỗi siêu thị, tổng kho và cửa hàng bán lẻ đa tiện ích, là mắt xích vật lý của nền kinh tế chia sẻ."
+  },
+  {
+    "id": "3",
+    "name": "Thẻ Đặc Quyền 3IN1",
+    "sector": "Tài chính",
+    "status": "Phát hành",
+    "loc": "Toàn quốc",
+    "cap": "100 tỷ",
+    "year": "2024",
+    "img": "/images/area-realestate.jpg",
+    "desc": "Thẻ an sinh 3IN1 và Thẻ Apec Business mang đến các đặc quyền hỗ trợ chi phí sinh hoạt và khởi nghiệp cho cộng đồng."
+  }
+]

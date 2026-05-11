@@ -1,0 +1,41 @@
+{
+  "sectionLabel": "VỀ APECGLOBAL",
+  "heading": "Kiến tạo giá trị vững bền – Đồng hành phát triển dài hạn",
+  "description1": "Công ty CP Tập đoàn Kinh tế ApecGlobal, ĐKKD cấp ngày 29/12/2009, MST: 0309563826. Chủ tịch HĐQT: Ông Nguyễn Ngọc Tùng.",
+  "description2": "Bộ Gen Lãnh Đạo ApecGlobal (10 Tố chất): Tầm nhìn • Chiến lược • Tư duy đột phá • Sự kiên định • Quyết đoán • Chính trực • Kỹ năng lãnh đạo • Nghệ thuật lãnh đạo • Khả năng đàm phán và thuyết phục • Khả năng truyền cảm hứng.",
+  "vision": {
+    "title": "TẦM NHÌN",
+    "content": "Trong 5-10 năm tới, ApecGlobal hướng tới mục tiêu trở thành một trong 10 Tập đoàn TMĐT lớn nhất khu vực; trở thành Tập đoàn tỷ đô, đa lĩnh vực, đa quốc gia."
+  },
+  "mission": {
+    "title": "SỨ MỆNH",
+    "content": "Đột phá về giải pháp – Giúp cộng đồng phát triển vững bền và kiến tạo sự an sinh xã hội thông qua công nghệ thông minh và sự kết nối bền vững."
+  },
+  "coreValues": [
+    {
+      "icon": "Sun",
+      "label": "Tâm Sáng",
+      "desc": "Tâm phải sáng thì Tầm mới cao."
+    },
+    {
+      "icon": "Heart",
+      "label": "Tâm Huyết",
+      "desc": "Khát vọng - Đam mê - Tinh thần trách nhiệm cao."
+    },
+    {
+      "icon": "HandHeart",
+      "label": "Tâm Khởi",
+      "desc": "Cho là nhận - Tất cả vì sức khỏe và Lợi ích cộng đồng."
+    },
+    {
+      "icon": "Brain",
+      "label": "Tâm Thức",
+      "desc": "Thấu hiểu Nội tâm - từ Trái tim đến Trái tim."
+    },
+    {
+      "icon": "Users",
+      "label": "Tâm Đạo",
+      "desc": "Chân thành - Yêu thương và Chia sẻ."
+    }
+  ]
+}

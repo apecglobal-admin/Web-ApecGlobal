@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "BẤT ĐỘNG SẢN",
+    "desc": "Phát triển dự án BĐS",
+    "img": "/images/area-realestate.jpg"
+  },
+  {
+    "id": "2",
+    "title": "NĂNG LƯỢNG TÁI TẠO",
+    "desc": "Năng lượng xanh",
+    "img": "/images/area-energy.jpg"
+  },
+  {
+    "id": "3",
+    "title": "SẢN XUẤT",
+    "desc": "Sản xuất thông minh",
+    "img": "/images/area-manufacturing.jpg"
+  },
+  {
+    "id": "4",
+    "title": "LOGISTICS",
+    "desc": "Hạ tầng logistics",
+    "img": "/images/area-logistics.jpg"
+  },
+  {
+    "id": "5",
+    "title": "CÔNG NGHỆ",
+    "desc": "Công nghệ tiên phong",
+    "img": "/images/area-tech.jpg"
+  }
+]

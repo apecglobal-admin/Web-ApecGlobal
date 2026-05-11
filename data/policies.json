@@ -1,0 +1,23 @@
+{
+  "investmentModel": [
+    { "label": "Kinh tế chia sẻ", "sub": "Tối ưu hóa nguồn lực" },
+    { "label": "Kinh tế cộng đồng", "sub": "Phát triển cùng nhau" },
+    { "label": "Kinh tế tuần hoàn", "sub": "Mô hình 3W bền vững" },
+    { "label": "Công nghệ cốt lõi", "sub": "Tự chủ hạ tầng" },
+    { "label": "Chuyển đổi số", "sub": "Tự động hóa toàn diện" }
+  ],
+  "investmentPolicies": [
+    { "title": "Bảo chứng đầu tư", "desc": "Cam kết rót vốn 5 triệu USD từ Quỹ khởi nghiệp UNIEEDC." },
+    { "title": "Phát triển bền vững", "desc": "Mô hình Kinh tế tuần hoàn 3W an toàn tuyệt đối." },
+    { "title": "Quyền lợi nhà đầu tư", "desc": "Chia sẻ doanh thu từ hệ sinh thái khép kín." },
+    { "title": "Minh bạch tuyệt đối", "desc": "Mọi dòng tiền đều được minh bạch qua hệ thống lõi bảo mật." }
+  ],
+  "cooperationTypes": [
+    { "label": "Nhà cung cấp/Supplier" },
+    { "label": "Chủ Shop TMĐT" },
+    { "label": "Cộng tác viên" },
+    { "label": "Người tiêu dùng thông minh" },
+    { "label": "Đối tác chiến lược" },
+    { "label": "100 Thủ Lĩnh toàn quốc" }
+  ]
+}
