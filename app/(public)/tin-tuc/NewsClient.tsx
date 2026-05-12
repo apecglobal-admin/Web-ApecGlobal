@@ -61,7 +61,7 @@ export default function NewsClient({ articles = [], banner = {} as any }: { arti
 
             {/* Right: Small Featured (Order 2, 3) */}
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-              {featured.slice(1, 3).map((a, i) => {
+              {featured.slice(1, 3).map((a: any, i: number) => {
                 const cc = CAT_COLORS[a.cat] || "#2563eb";
                 return (
                   <Link key={a.id || i} href={`/tin-tuc/${a.slug || a.id}`} style={{ display: "flex", gap: 16, padding: 16, borderRadius: 16, border: "1.5px solid #e2e8f0", background: "#fff", transition: "all 0.3s", flex: 1, textDecoration: "none", color: "inherit" }} onMouseOver={e => { e.currentTarget.style.borderColor = cc; e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.05)"; }} onMouseOut={e => { e.currentTarget.style.borderColor = "#e2e8f0"; e.currentTarget.style.boxShadow = "none"; }}>
@@ -85,7 +85,7 @@ export default function NewsClient({ articles = [], banner = {} as any }: { arti
 
         {/* Tabs */}
         <div style={{ display: "flex", gap: 8, marginBottom: 32, flexWrap: "wrap", justifyContent: "center" }}>
-          {CATS.map(c => (
+          {CATS.map((c: string) => (
             <button key={c} onClick={() => setCat(c)} style={{
               padding: "8px 20px", borderRadius: 999, fontSize: 13, fontWeight: 600, cursor: "pointer", border: "2px solid", transition: "all 0.2s",
               background: cat === c ? "#2563eb" : "#fff", color: cat === c ? "#fff" : "#64748b", borderColor: cat === c ? "#2563eb" : "#f1f5f9",
@@ -95,7 +95,7 @@ export default function NewsClient({ articles = [], banner = {} as any }: { arti
 
         {/* Articles grid */}
         <div className="news-articles-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 24 }}>
-          {filtered.map((a, i) => {
+          {filtered.map((a: any, i: number) => {
             const cc = CAT_COLORS[a.cat] || "#2563eb";
             return (
               <motion.article key={a.id || i} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} style={{ height: "100%" }}>

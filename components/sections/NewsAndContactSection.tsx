@@ -46,7 +46,7 @@ export default function NewsAndContactSection({ data, site }: Props) {
               Hoạt Động <span style={{ color: "#2563eb" }}>Sự Kiện</span>
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: 20, marginBottom: 32 }}>
-              {news.map((item, i) => (
+              {news.map((item: NewsItem, i: number) => (
                 <Link key={item.id || i} href={`/tin-tuc/${item.slug || item.id}`} style={{ textDecoration: "none", color: "inherit" }}>
                   <div className="news-item" style={{ display: "flex", gap: 20, alignItems: "center", padding: 16, borderRadius: 16, background: "#f8fafc", border: "1px solid #e2e8f0", transition: "all 0.3s", cursor: "pointer" }} onMouseOver={e => e.currentTarget.style.borderColor = "#93c5fd"} onMouseOut={e => e.currentTarget.style.borderColor = "#e2e8f0"}>
                     <div className="news-img" style={{ width: 120, height: 90, borderRadius: 10, overflow: "hidden", flexShrink: 0, position: "relative", background: "#0f172a" }}>
@@ -82,12 +82,12 @@ export default function NewsAndContactSection({ data, site }: Props) {
                   </div>
                 ) : (
                   <form onSubmit={submit} style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-                    <input style={inp} placeholder="Họ và tên *" required value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} />
+                    <input style={inp} placeholder="Họ và tên *" required value={form.name} onChange={e => setForm((p: any) => ({ ...p, name: e.target.value }))} />
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      <input style={inp} placeholder="Số điện thoại *" type="tel" required value={form.phone} onChange={e => setForm(p => ({ ...p, phone: e.target.value }))} />
-                      <input style={inp} placeholder="Email" type="email" value={form.email} onChange={e => setForm(p => ({ ...p, email: e.target.value }))} />
+                      <input style={inp} placeholder="Số điện thoại *" type="tel" required value={form.phone} onChange={e => setForm((p: any) => ({ ...p, phone: e.target.value }))} />
+                      <input style={inp} placeholder="Email" type="email" value={form.email} onChange={e => setForm((p: any) => ({ ...p, email: e.target.value }))} />
                     </div>
-                    <textarea style={{ ...inp, resize: "vertical", minHeight: 80 }} placeholder="Nội dung cần tư vấn..." value={form.note} onChange={e => setForm(p => ({ ...p, note: e.target.value }))} />
+                    <textarea style={{ ...inp, resize: "vertical", minHeight: 80 }} placeholder="Nội dung cần tư vấn..." value={form.note} onChange={e => setForm((p: any) => ({ ...p, note: e.target.value }))} />
                     <button type="submit" disabled={loading} style={{ background: "linear-gradient(135deg,#1d4ed8,#2563eb)", color: "#fff", border: "none", borderRadius: 8, padding: 14, fontSize: 14, fontWeight: 700, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginTop: 8, opacity: loading ? 0.7 : 1 }}>
                       {loading ? "Đang gửi..." : <>GỬI YÊU CẦU <Send size={16} /></>}
                     </button>

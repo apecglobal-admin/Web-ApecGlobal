@@ -148,7 +148,7 @@ export default function ContactAdminPage() {
 
       <div style={card}>
         <div style={cardTitle}>Cấu hình Google Map (Iframe Embed URL)</div>
-        <p style={{ fontSize: 12, color: "#64748b", marginBottom: 10 }}>Vào Google Maps, chọn "Chia sẻ" -> "Nhúng bản đồ" -> Copy phần URL trong thuộc tính src="..."</p>
+        <p style={{ fontSize: 12, color: "#64748b", marginBottom: 10 }}>Vào Google Maps, chọn "Chia sẻ" &rarr; "Nhúng bản đồ" &rarr; Copy phần URL trong thuộc tính src="..."</p>
         <textarea rows={3} style={fieldTextarea} value={data.mapUrl || ""} onChange={e => u("mapUrl", e.target.value)} placeholder="https://www.google.com/maps/embed?pb=..." />
       </div>
 

@@ -114,7 +114,7 @@ export default function LienHeClient({ site }: { site: any }) {
                   <label style={{ display: "block", fontSize: 12, fontWeight: 600, color: "#334155", marginBottom: 5 }}>Lĩnh vực quan tâm</label>
                   <select value={form.interest} onChange={e => setForm(p => ({ ...p, interest: e.target.value }))} style={{ ...inp, appearance: "none", color: form.interest ? "#0f172a" : "#94a3b8" }}>
                     <option value="">Chọn lĩnh vực</option>
-                    {INTERESTS.map(i => <option key={i} value={i}>{i}</option>)}
+                    {INTERESTS.map((i: string) => <option key={i} value={i}>{i}</option>)}
                   </select>
                 </div>
                 <div>

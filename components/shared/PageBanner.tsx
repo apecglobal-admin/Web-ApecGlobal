@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-interface Props { label: string; title: string; desc: string; }
+interface Props { label: string; title: string; desc: React.ReactNode; }
 
 export default function PageBanner({ label, title, desc }: Props) {
   return (
