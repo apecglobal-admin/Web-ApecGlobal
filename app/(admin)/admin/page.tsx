@@ -13,8 +13,8 @@ const CARDS = [
 const QUICK = [
   { label: "Cấu hình chung", href: "/admin/site", icon: Settings },
   { label: "Hero Banner", href: "/admin/hero", icon: ImgIcon },
-  { label: "Chính sách", href: "/admin/policies", icon: FileText },
-  { label: "Thư viện ảnh", href: "/admin/media", icon: ImgIcon },
+  { label: "CS Đầu tư", href: "/admin/investment-policy", icon: FileText },
+  { label: "CS Hợp tác", href: "/admin/cooperation-policy", icon: Handshake },
 ];
 
 export default function DashboardPage() {

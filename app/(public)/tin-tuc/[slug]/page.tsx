@@ -4,10 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Calendar, Clock, ArrowLeft, Share2, Facebook, Linkedin, Twitter } from "lucide-react";
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const articles = getArticles();
-  const article = articles.find(a => a.id === id);
+  const article = articles.find(a => a.slug === slug || a.id === slug);
   if (!article) return { title: "Không tìm thấy bài viết | APEC Global" };
   return {
     title: `${article.title} | APEC Global`,
@@ -19,15 +19,18 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 function getArticles(): any[] {
   try {
     const p = path.join(process.cwd(), "data", "news.json");
-    if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, "utf-8"));
+    if (fs.existsSync(p)) {
+      const data = JSON.parse(fs.readFileSync(p, "utf-8"));
+      return data.items || (Array.isArray(data) ? data : []);
+    }
   } catch (e) { console.error(e); }
   return [];
 }
 
-export default async function NewsDetailPage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+export default async function NewsDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const articles = getArticles();
-  const article = articles.find(a => a.id === id);
+  const article = articles.find(a => a.slug === slug || a.id === slug);
 
   if (!article) {
     return (
@@ -76,7 +79,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ id:
           </div>
 
           {/* Excerpt */}
-          <div style={{ fontSize: 16, fontWeight: 600, color: "#334155", lineHeight: 1.8, marginBottom: 32, paddingLeft: 20, borderLeft: "4px solid #2563eb" }}>
+          <div style={{ fontSize: 16, fontWeight: 600, color: "#334155", lineHeight: 1.8, marginBottom: 32, paddingLeft: 20, borderLeft: "4px solid #2563eb", whiteSpace: "pre-wrap" }}>
             {article.excerpt}
           </div>
 

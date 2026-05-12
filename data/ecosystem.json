@@ -1,41 +1,49 @@
-[
-  {
-    "id": "1",
-    "icon": "💻",
-    "title": "CÔNG NGHỆ",
-    "sub": "Core System",
-    "color": "#1d4ed8",
-    "items": [
-      "Siêu ứng dụng",
-      "AI & Blockchain",
-      "Hạ tầng Supabase"
-    ],
-    "img": "/images/area-tech.jpg"
-  },
-  {
-    "id": "2",
-    "icon": "⚙️",
-    "title": "VẬN HÀNH & DỊCH VỤ",
-    "sub": "Operations",
-    "color": "#15803d",
-    "items": [
-      "Hệ thống ERP",
-      "Apec BCI & Life Care",
-      "Ví Apec Wallet"
-    ],
-    "img": "/images/area-manufacturing.jpg"
-  },
-  {
-    "id": "3",
-    "icon": "🛒",
-    "title": "THƯƠNG MẠI",
-    "sub": "Experience",
-    "color": "#c2410c",
-    "items": [
-      "Sàn TMĐT Apec",
-      "Siêu thị ECOOP",
-      "Mô hình O2O"
-    ],
-    "img": "/images/area-logistics.jpg"
-  }
-]
+{
+  "bannerLabel": "Ecosystem 1",
+  "bannerTitle": "Hệ Sinh Thái APEC Global 1",
+  "bannerDesc": "Hệ sinh thái đa ngành kết nối Công nghệ – Tài chính – Thương mại – Dịch vụ, tạo giá trị bền vững 1",
+  "items": [
+    {
+      "id": "1",
+      "icon": "💻",
+      "title": "CÔNG NGHỆ 1",
+      "sub": "Core System",
+      "color": "#1d4ed8",
+      "desc": "Kiến tạo giá trị bền vững và đồng hành cùng sự phát triển thịnh vượng thông qua các giải pháp công nghệ tiên tiến như AI, Blockchain và hạ tầng Supabase. 1",
+      "items": [
+        "Siêu ứng dụng 1",
+        "AI & Blockchain 1",
+        "Hạ tầng Supabase 1"
+      ],
+      "img": "/images/area-tech.jpg"
+    },
+    {
+      "id": "2",
+      "icon": "⚙️",
+      "title": "VẬN HÀNH & DỊCH VỤ 1",
+      "sub": "Operations 1",
+      "color": "#15803d",
+      "desc": "Quản trị chuyên nghiệp với hệ thống ERP hiện đại, giải pháp Apec BCI & Life Care cùng ví điện tử Apec Wallet tiện lợi. 1",
+      "items": [
+        "Hệ thống ERP 1",
+        "Apec BCI & Life Care 1",
+        "Ví Apec Wallet 1"
+      ],
+      "img": "/images/area-manufacturing.jpg"
+    },
+    {
+      "id": "3",
+      "icon": "🛒",
+      "title": "THƯƠNG MẠI",
+      "sub": "Experience",
+      "color": "#c2410c",
+      "desc": "Kết nối người tiêu dùng và doanh nghiệp thông qua Sàn TMĐT Apec, chuỗi siêu thị ECOOP và mô hình O2O tối ưu trải nghiệm.",
+      "items": [
+        "Sàn TMĐT Apec",
+        "Siêu thị ECOOP",
+        "Mô hình O2O"
+      ],
+      "img": "/images/area-logistics.jpg"
+    }
+  ]
+}

@@ -39,8 +39,8 @@ export default function AboutSection({ data }: Props) {
             {d.heading}
           </h2>
           <div style={{ width: 60, height: 4, background: "linear-gradient(90deg,#1d4ed8,#60a5fa)", borderRadius: 2, marginBottom: 28 }} />
-          <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.7, marginBottom: 20 }}>{d.description1}</p>
-          <p style={{ color: "#64748b", fontSize: 14, lineHeight: 1.7, marginBottom: 36 }}>{d.description2}</p>
+          <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.7, marginBottom: 20, whiteSpace: "pre-wrap" }}>{d.description1}</p>
+          <p style={{ color: "#64748b", fontSize: 14, lineHeight: 1.7, marginBottom: 36, whiteSpace: "pre-wrap" }}>{d.description2}</p>
           <div style={{ display: "flex", gap: 16 }}>
             <Link href="/gioi-thieu" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "12px 26px", borderRadius: 8, background: "#0f172a", color: "#fff", fontWeight: 600, fontSize: 13, textDecoration: "none", transition: "background 0.2s" }}>
               XEM CHI TIẾT <ArrowRight size={16} />

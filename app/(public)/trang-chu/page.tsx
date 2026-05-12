@@ -32,10 +32,13 @@ export default function Home() {
   const ecosystem = getJsonData("ecosystem");
   const investment = getJsonData("investment");
   const projects = getJsonData("projects");
-  const policies = getJsonData("policies");
+  const invPolicy = getJsonData("investment-policy");
+  const coopPolicy = getJsonData("cooperation-policy");
   const news = getJsonData("news");
   const partners = getJsonData("partners");
   const site = getJsonData("site");
+
+  const combinedPolicies = { ...invPolicy, ...coopPolicy };
 
   return (
     <>
@@ -45,7 +48,7 @@ export default function Home() {
       <EcosystemSection data={ecosystem} />
       <InvestmentAreasSection data={investment} />
       <ProjectsSection data={projects} />
-      <ModelAndPoliciesSection data={policies} />
+      <ModelAndPoliciesSection data={combinedPolicies} />
       <NewsAndContactSection data={news} site={site} />
       <PartnersSection data={partners} />
     </>

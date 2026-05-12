@@ -8,6 +8,27 @@
   "social": {
     "facebook": "#",
     "youtube": "#",
-    "linkedin": "#"
-  }
+    "linkedin": "#",
+    "tiktok": "#"
+  },
+  "contactBannerLabel": "Contact Us",
+  "contactBannerTitle": "Liên Hệ Với Chúng Tôi",
+  "contactBannerDesc": "Đội ngũ APEC Global luôn sẵn sàng hỗ trợ và tư vấn cho quý khách hàng",
+  "workingHours": "T2-T6: 8:00 – 17:30\nT7: 8:00 - 12:00",
+  "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15679.75296027949!2d106.61734189999999!3d10.73924345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752dc0e41564fd%3A0x28c8e3071058a9c5!2zQ8O0bmcgVHkgQ-G7lSBQaOG6p24gVOG6rXAgxJBvw6BuIEtpbmggVOG6vyBBcGVjZ2xvYmFs!5e0!3m2!1svi!2s!4v1778570774996!5m2!1svi!2s",
+  "interests": [
+    "Công nghệ",
+    "Tài chính",
+    "Thương mại",
+    "Dịch vụ",
+    "Khác"
+  ],
+  "offices": [
+    {
+      "city": "Trụ sở chính",
+      "addr": "Số 4 Lê Tuấn Mậu, Phường Phú Lâm, Thành Phố Hồ Chí Minh",
+      "phone": "19003165",
+      "email": "info@apecglobal.net"
+    }
+  ]
 }

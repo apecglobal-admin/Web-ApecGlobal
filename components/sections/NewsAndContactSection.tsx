@@ -5,14 +5,14 @@ import { Calendar, ArrowRight, Mail, Phone, MapPin, Send } from "lucide-react";
 import Link from "next/link";
 import { useInView } from "@/lib/hooks";
 
-interface NewsItem { id: string; title: string; cat: string; date: string; img: string; excerpt?: string; }
+interface NewsItem { id: string; title: string; cat: string; date: string; img: string; excerpt?: string; slug?: string; }
 interface SiteData { phone: string; email: string; address: string; }
 interface Props { data?: NewsItem[]; site?: SiteData; }
 
 const DEFAULT_NEWS: NewsItem[] = [
-  { id: "1", title: "APEC Global ký kết hợp tác chiến lược với tập đoàn hàng đầu Nhật Bản", cat: "Sự kiện", date: "15/03/2024", img: "/images/news-1.jpg" },
-  { id: "2", title: "Ra mắt nền tảng AI hàng đầu Việt Nam – APEC AI Assistant", cat: "Công nghệ", date: "08/03/2024", img: "/images/news-2.jpg" },
-  { id: "3", title: "Quỹ đầu tư APEC Capital đạt mốc 1.000 tỷ VNĐ tổng tài sản", cat: "Đầu tư", date: "01/03/2024", img: "/images/news-3.jpg" },
+  { id: "1", title: "APEC Global ký kết hợp tác chiến lược với tập đoàn hàng đầu Nhật Bản", cat: "Sự kiện", date: "15/03/2024", img: "/images/news-1.jpg", slug: "apec-global-ky-ket-hop-tac-chien-luoc" },
+  { id: "2", title: "Ra mắt nền tảng AI hàng đầu Việt Nam – APEC AI Assistant", cat: "Công nghệ", date: "08/03/2024", img: "/images/news-2.jpg", slug: "ra-mat-nen-tang-ai-hang-dau-viet-nam" },
+  { id: "3", title: "Quỹ đầu tư APEC Capital đạt mốc 1.000 tỷ VNĐ tổng tài sản", cat: "Đầu tư", date: "01/03/2024", img: "/images/news-3.jpg", slug: "quy-dau-tu-apec-capital-dat-moc-1000-ty" },
 ];
 
 export default function NewsAndContactSection({ data, site }: Props) {
@@ -21,7 +21,8 @@ export default function NewsAndContactSection({ data, site }: Props) {
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const news = data && data.length > 0 ? data.slice(0, 3) : DEFAULT_NEWS;
+  const newsItems = Array.isArray(data) ? data : (data as any)?.items || [];
+  const news = newsItems.length > 0 ? newsItems.slice(0, 3) : DEFAULT_NEWS;
   const contact = { phone: site?.phone || "1800 1234", email: site?.email || "info@apecglobal.vn", address: site?.address || "Tầng 15, Apec Tower, 39 Láng Hạ, Hà Nội" };
 
   const submit = async (e: React.FormEvent) => {
@@ -46,7 +47,7 @@ export default function NewsAndContactSection({ data, site }: Props) {
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: 20, marginBottom: 32 }}>
               {news.map((item, i) => (
-                <Link key={item.id || i} href={`/tin-tuc/${item.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+                <Link key={item.id || i} href={`/tin-tuc/${item.slug || item.id}`} style={{ textDecoration: "none", color: "inherit" }}>
                   <div className="news-item" style={{ display: "flex", gap: 20, alignItems: "center", padding: 16, borderRadius: 16, background: "#f8fafc", border: "1px solid #e2e8f0", transition: "all 0.3s", cursor: "pointer" }} onMouseOver={e => e.currentTarget.style.borderColor = "#93c5fd"} onMouseOut={e => e.currentTarget.style.borderColor = "#e2e8f0"}>
                     <div className="news-img" style={{ width: 120, height: 90, borderRadius: 10, overflow: "hidden", flexShrink: 0, position: "relative", background: "#0f172a" }}>
                       <div style={{ position: "absolute", inset: 0, backgroundImage: `url('${item.img}')`, backgroundSize: "cover", backgroundPosition: "center" }} />

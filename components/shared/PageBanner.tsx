@@ -12,8 +12,8 @@ export default function PageBanner({ label, title, desc }: Props) {
       <div style={{ position: "relative", zIndex: 2, maxWidth: 1280, margin: "0 auto", padding: "60px 28px 48px", textAlign: "center" }}>
         <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
           <div style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: "0.16em", color: "#93c5fd", marginBottom: 10, textTransform: "uppercase" }}>{label}</div>
-          <h1 style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.6rem,3.5vw,2.6rem)", color: "#fff", margin: "0 0 12px", lineHeight: 1.2 }}>{title}</h1>
-          <p style={{ color: "#94a3b8", fontSize: "clamp(0.85rem,1.3vw,1rem)", maxWidth: 580, margin: "0 auto", lineHeight: 1.7 }}>{desc}</p>
+          <h1 style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.6rem,3.5vw,2.6rem)", color: "#fff", margin: "0 0 12px", lineHeight: 1.2, whiteSpace: "pre-wrap" }}>{title}</h1>
+          <p style={{ color: "#94a3b8", fontSize: "clamp(0.85rem,1.3vw,1rem)", maxWidth: 580, margin: "0 auto", lineHeight: 1.7, whiteSpace: "pre-wrap" }}>{desc}</p>
         </motion.div>
       </div>
       {/* Bottom curve */}

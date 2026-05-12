@@ -5,7 +5,7 @@ import Link from "next/link";
 import {
   LayoutDashboard, Settings, Image as ImgIcon, BarChart3, Info, Layers, Building2,
   FolderOpen, FileText, Newspaper, Users, Handshake, Menu as MenuIcon, Navigation,
-  LogOut, ChevronRight, X, Footprints, Globe
+  LogOut, ChevronRight, X, Footprints, Globe, Phone
 } from "lucide-react";
 
 interface User { userId: string; username: string; role: "admin" | "editor"; }
@@ -23,8 +23,11 @@ const NAV = [
   { label: "Hệ sinh thái", href: "/admin/ecosystem", icon: Layers },
   { label: "Lĩnh vực đầu tư", href: "/admin/investment", icon: Building2 },
   { label: "Dự án", href: "/admin/projects", icon: FolderOpen },
-  { label: "Chính sách", href: "/admin/policies", icon: FileText },
+  { label: "CS Đầu tư", href: "/admin/investment-policy", icon: FileText },
+  { label: "CS Hợp tác", href: "/admin/cooperation-policy", icon: Handshake },
   { label: "Tin tức", href: "/admin/news", icon: Newspaper },
+  { label: "Yêu cầu tư vấn", href: "/admin/leads", icon: FileText },
+  { label: "Liên hệ", href: "/admin/contact", icon: Phone },
   { label: "Đối tác", href: "/admin/partners", icon: Handshake },
   { divider: true, label: "CẤU TRÚC" },
   { label: "Menu điều hướng", href: "/admin/nav", icon: Navigation },

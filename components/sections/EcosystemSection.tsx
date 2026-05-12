@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 import { useInView } from "@/lib/hooks";
 
 interface EcosystemItem { id: string; icon: string; title: string; sub: string; color: string; items: string[]; img: string; }
-interface Props { data?: EcosystemItem[] }
+interface Props { data?: { bannerLabel?: string; bannerTitle?: string; bannerDesc?: string; items?: EcosystemItem[] } | EcosystemItem[] }
 
-const DEFAULT_DATA: EcosystemItem[] = [
+const DEFAULT_ITEMS: EcosystemItem[] = [
   { id: "1", icon: "💻", title: "CÔNG NGHỆ", sub: "Technology", color: "#1d4ed8", items: ["Super App", "Sàn TMĐT", "AI & Chuyển đổi số"], img: "/images/area-tech.jpg" },
   { id: "2", icon: "📈", title: "TÀI CHÍNH", sub: "Finance", color: "#15803d", items: ["Quỹ đầu tư", "M&A doanh nghiệp", "Đầu tư tài chính"], img: "/images/area-realestate.jpg" },
   { id: "3", icon: "🛒", title: "THƯƠNG MẠI", sub: "Commerce", color: "#c2410c", items: ["Renner", "Chuỗi cung ứng", "Logistics"], img: "/images/area-logistics.jpg" },
@@ -16,7 +16,10 @@ const DEFAULT_DATA: EcosystemItem[] = [
 
 export default function EcosystemSection({ data }: Props) {
   const { ref, isInView } = useInView(0.1);
-  const items = data && data.length > 0 ? data : DEFAULT_DATA;
+  const items = Array.isArray(data) ? data : (data?.items || DEFAULT_ITEMS);
+  const title = !Array.isArray(data) && data?.bannerTitle ? data.bannerTitle : "Đa Ngành – Toàn Diện";
+  const desc = !Array.isArray(data) && data?.bannerDesc ? data.bannerDesc : "Hệ sinh thái APEC Global liên kết chặt chẽ, hỗ trợ lẫn nhau tạo thành chuỗi giá trị khép kín, mang lại hiệu quả tối ưu cho đối tác và khách hàng.";
+  const label = !Array.isArray(data) && data?.bannerLabel ? data.bannerLabel : "HỆ SINH THÁI";
 
   return (
     <section ref={ref} className="section-padding" style={{ background: "#f8fafc" }}>
@@ -24,13 +27,13 @@ export default function EcosystemSection({ data }: Props) {
         <div style={{ textAlign: "center", marginBottom: 50 }}>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }}>
             <div style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "6px 14px", borderRadius: 100, background: "rgba(37,99,235,0.08)", color: "#2563eb", fontWeight: 700, fontSize: 11, letterSpacing: "0.06em", marginBottom: 16 }}>
-              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#2563eb" }} /> HỆ SINH THÁI
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#2563eb" }} /> {label}
             </div>
-            <h2 style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.8rem,3vw,2.4rem)", color: "#0f172a", marginBottom: 16 }}>
-              Đa Ngành – <span style={{ color: "#2563eb" }}>Toàn Diện</span>
+            <h2 style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.8rem,3vw,2.4rem)", color: "#0f172a", marginBottom: 16, whiteSpace: "pre-line" }}>
+              {title}
             </h2>
-            <p style={{ color: "#64748b", fontSize: 14, maxWidth: 600, margin: "0 auto", lineHeight: 1.6 }}>
-              Hệ sinh thái APEC Global liên kết chặt chẽ, hỗ trợ lẫn nhau tạo thành chuỗi giá trị khép kín, mang lại hiệu quả tối ưu cho đối tác và khách hàng.
+            <p style={{ color: "#64748b", fontSize: 14, maxWidth: 600, margin: "0 auto", lineHeight: 1.6, whiteSpace: "pre-wrap" }}>
+              {desc}
             </p>
           </motion.div>
         </div>

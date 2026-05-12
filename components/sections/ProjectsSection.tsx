@@ -6,9 +6,9 @@ import Link from "next/link";
 import { useInView } from "@/lib/hooks";
 
 interface ProjectItem { id: string; name: string; sector: string; status: string; loc: string; cap: string; year: string; img: string; desc: string; }
-interface Props { data?: ProjectItem[] }
+interface Props { data?: { bannerLabel?: string; bannerTitle?: string; items?: ProjectItem[] } | ProjectItem[] }
 
-const DEFAULT_DATA: ProjectItem[] = [
+const DEFAULT_ITEMS: ProjectItem[] = [
   { id: "1", name: "APEC TOWER", sector: "Bất động sản", status: "Đang vận hành", loc: "Hà Nội", cap: "1.200 tỷ", year: "2021", img: "/images/area-realestate.jpg", desc: "Tòa nhà văn phòng hạng A 35 tầng tại trung tâm Hà Nội." },
   { id: "2", name: "APEC SOLAR FARM", sector: "Năng lượng", status: "Đang vận hành", loc: "Ninh Thuận", cap: "500 tỷ", year: "2022", img: "/images/area-energy.jpg", desc: "Nhà máy điện mặt trời công suất 50MW." },
   { id: "3", name: "APEC SMART FACTORY", sector: "Sản xuất", status: "Đang đầu tư", loc: "Bắc Ninh", cap: "800 tỷ", year: "2023", img: "/images/area-manufacturing.jpg", desc: "Nhà máy sản xuất thông minh ứng dụng AI." }
@@ -16,7 +16,9 @@ const DEFAULT_DATA: ProjectItem[] = [
 
 export default function ProjectsSection({ data }: Props) {
   const { ref, isInView } = useInView(0.1);
-  const items = data && data.length > 0 ? data : DEFAULT_DATA;
+  const items = Array.isArray(data) ? data : (data?.items || DEFAULT_ITEMS);
+  const label = !Array.isArray(data) && data?.bannerLabel ? data.bannerLabel : "DỰ ÁN NỔI BẬT";
+  const title = !Array.isArray(data) && data?.bannerTitle ? data.bannerTitle : "Dấu Ấn APEC Global";
   const [idx, setIdx] = useState(0);
 
   const next = () => setIdx(i => (i + 1) % items.length);
@@ -30,10 +32,10 @@ export default function ProjectsSection({ data }: Props) {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 40, flexWrap: "wrap", gap: 20 }}>
           <motion.div initial={{ opacity: 0, x: -20 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
             <div style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "6px 14px", borderRadius: 100, background: "rgba(37,99,235,0.08)", color: "#2563eb", fontWeight: 700, fontSize: 11, letterSpacing: "0.06em", marginBottom: 16 }}>
-              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#2563eb" }} /> DỰ ÁN NỔI BẬT
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#2563eb" }} /> {label}
             </div>
-            <h2 style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.8rem,3vw,2.4rem)", color: "#0f172a", margin: 0 }}>
-              Dấu Ấn <span style={{ color: "#2563eb" }}>APEC Global</span>
+            <h2 style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.8rem,3vw,2.4rem)", color: "#0f172a", margin: 0, whiteSpace: "pre-line" }}>
+              {title}
             </h2>
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 20 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }} style={{ display: "flex", gap: 12 }}>

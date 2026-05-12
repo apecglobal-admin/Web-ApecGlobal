@@ -1,0 +1,107 @@
+{
+  "cooperationTypes": [
+    {
+      "label": "Nhà cung cấp/Supplier"
+    },
+    {
+      "label": "Chủ Shop TMĐT"
+    },
+    {
+      "label": "Cộng tác viên"
+    },
+    {
+      "label": "Người tiêu dùng thông minh"
+    },
+    {
+      "label": "Đối tác chiến lược"
+    },
+    {
+      "label": "100 Thủ Lĩnh toàn quốc1"
+    }
+  ],
+  "coopModels": [
+    {
+      "icon": "Building2",
+      "title": "Hợp tác doanh nghiệp",
+      "desc": "Liên doanh, liên kết và đồng đầu tư với các doanh nghiệp trong và ngoài nước.",
+      "features": "Cùng đầu tư phát triển dự án\nChia sẻ nguồn lực & hạ tầng\nĐồng quản trị doanh nghiệp"
+    },
+    {
+      "icon": "TrendingUp",
+      "title": "Hợp tác đầu tư",
+      "desc": "Các gói đầu tư linh hoạt với mức sinh lời hấp dẫn và rủi ro được kiểm soát.",
+      "features": "Đầu tư trực tiếp\nQuỹ đầu tư chung\nTrái phiếu doanh nghiệp"
+    },
+    {
+      "icon": "Handshake",
+      "title": "M&A",
+      "desc": "Tư vấn và thực hiện M&A chuyên nghiệp, tối ưu giá trị doanh nghiệp.",
+      "features": "Mua bán sáp nhập\nTái cấu trúc doanh nghiệp\nĐịnh giá & thẩm định"
+    },
+    {
+      "icon": "Globe",
+      "title": "Hợp tác quốc tế",
+      "desc": "Mở rộng cơ hội hợp tác với các đối tác và tổ chức quốc tế.",
+      "features": "FDI & Đầu tư nước ngoài\nChuyển giao công nghệ\nHợp tác xuyên biên giới"
+    },
+    {
+      "icon": "Share2",
+      "title": "Đối tác phân phối",
+      "desc": "Mạng lưới phân phối rộng khắp, tối ưu chuỗi cung ứng.",
+      "features": "Đại lý phân phối\nNhượng quyền thương hiệu\nChuỗi bán lẻ"
+    },
+    {
+      "icon": "Target",
+      "title": "Hợp tác chiến lược 1",
+      "desc": "Liên minh chiến lược dài hạn cùng phát triển bền vững.",
+      "features": "Đối tác chiến lược dài hạn\nCùng phát triển thị trường\nChia sẻ lợi ích bền vững"
+    }
+  ],
+  "coopProcess": [
+    {
+      "step": "01",
+      "title": "Tiếp nhận hồ sơ",
+      "desc": "Tiếp nhận và xử lý hồ sơ hợp tác trong vòng 24 giờ làm việc"
+    },
+    {
+      "step": "02",
+      "title": "Đánh giá & Thẩm định",
+      "desc": "Đội ngũ chuyên gia đánh giá tiềm năng và tính khả thi"
+    },
+    {
+      "step": "03",
+      "title": "Đàm phán & Ký kết",
+      "desc": "Thương thảo các điều khoản hợp tác và ký kết hợp đồng"
+    },
+    {
+      "step": "04",
+      "title": "Triển khai & Đồng hành",
+      "desc": "Triển khai hợp tác và đồng hành trong suốt quá trình 1"
+    }
+  ],
+  "coopBannerLabel": "Partnership Policy 1",
+  "coopBannerTitle": "Chính Sách Hợp Tác",
+  "coopBannerDesc": "Đa dạng mô hình hợp tác – Tối ưu giá trị cho đối tác – Cùng phát triển bền vững",
+  "coopBenefits": [
+    {
+      "icon": "Award",
+      "title": "Thương hiệu uy tín",
+      "desc": "Đồng hành cùng thương hiệu hàng đầu Việt Nam"
+    },
+    {
+      "icon": "Shield",
+      "title": "Bảo vệ quyền lợi",
+      "desc": "Hợp đồng minh bạch, bảo vệ quyền lợi đối tác"
+    },
+    {
+      "icon": "Users",
+      "title": "Đội ngũ hỗ trợ",
+      "desc": "Đội ngũ chuyên gia hỗ trợ 24/7"
+    },
+    {
+      "icon": "TrendingUp",
+      "title": "Tăng trưởng bền vững",
+      "desc": "Chiến lược phát triển dài hạn, tăng trưởng ổn định"
+    }
+  ]
+}

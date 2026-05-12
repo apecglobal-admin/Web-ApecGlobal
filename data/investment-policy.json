@@ -1,0 +1,89 @@
+{
+  "investmentModel": [
+    {
+      "label": "Kinh tế chia sẻ",
+      "sub": "Tối ưu hóa nguồn lực"
+    },
+    {
+      "label": "Kinh tế cộng đồng",
+      "sub": "Phát triển cùng nhau"
+    },
+    {
+      "label": "Kinh tế tuần hoàn",
+      "sub": "Mô hình 3W bền vững"
+    },
+    {
+      "label": "Công nghệ cốt lõi",
+      "sub": "Tự chủ hạ tầng"
+    },
+    {
+      "label": "Chuyển đổi số",
+      "sub": "Tự động hóa toàn diện"
+    }
+  ],
+  "investmentPolicies": [
+    {
+      "title": "Bảo chứng đầu tư",
+      "desc": "Cam kết rót vốn 5 triệu USD từ Quỹ khởi nghiệp UNIEEDC."
+    },
+    {
+      "title": "Phát triển bền vững",
+      "desc": "Mô hình Kinh tế tuần hoàn 3W an toàn tuyệt đối."
+    },
+    {
+      "title": "Quyền lợi nhà đầu tư",
+      "desc": "Chia sẻ doanh thu từ hệ sinh thái khép kín."
+    },
+    {
+      "title": "Minh bạch tuyệt đối",
+      "desc": "Mọi dòng tiền đều được minh bạch qua hệ thống lõi bảo mật. 1"
+    }
+  ],
+  "principles": [
+    {
+      "icon": "Shield",
+      "title": "Minh bạch",
+      "desc": "Công khai toàn bộ quy trình đầu tư, báo cáo tài chính định kỳ cho nhà đầu tư."
+    },
+    {
+      "icon": "Scale",
+      "title": "Tuân thủ pháp lý",
+      "desc": "Đảm bảo tuân thủ đầy đủ quy định pháp luật Việt Nam và quốc tế. 1"
+    },
+    {
+      "icon": "Leaf",
+      "title": "Bền vững (ESG)",
+      "desc": "Ưu tiên dự án phát triển bền vững, đáp ứng tiêu chuẩn ESG quốc tế."
+    },
+    {
+      "icon": "TrendingUp",
+      "title": "Hiệu quả cao",
+      "desc": "Tối ưu lợi nhuận trên vốn đầu tư thông qua quản trị chuyên nghiệp."
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Thẩm định dự án",
+      "desc": "Phân tích kỹ thuật, pháp lý, tài chính và đánh giá rủi ro toàn diện"
+    },
+    {
+      "step": "02",
+      "title": "Phê duyệt đầu tư",
+      "desc": "Hội đồng đầu tư xem xét và phê duyệt trên tiêu chí minh bạch"
+    },
+    {
+      "step": "03",
+      "title": "Triển khai & Giám sát",
+      "desc": "Quản lý dự án chuyên nghiệp, báo cáo tiến độ định kỳ"
+    },
+    {
+      "step": "04",
+      "title": "Thoái vốn & Lợi nhuận",
+      "desc": "Chiến lược thoái vốn tối ưu, phân phối lợi nhuận minh bạch"
+    }
+  ],
+  "bannerLabel": "Investment Policy 1",
+  "bannerTitle": "Chính Sách Đầu Tư",
+  "bannerDesc": "Quy trình đầu tư minh bạch, hiệu quả và bền vững – Tạo giá trị dài hạn cho nhà đầu tư"
+}

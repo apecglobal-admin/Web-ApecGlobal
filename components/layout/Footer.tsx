@@ -2,10 +2,11 @@
 import type { MouseEvent } from "react";
 import Link from "next/link";
 import { Mail, Phone, MapPin, Facebook, Youtube, Linkedin, ArrowRight } from "lucide-react";
+import { TiktokIcon as Tiktok } from "@/components/shared/Icons";
 
 interface FooterCol { title: string; links: { label: string; href: string; }[] }
 interface FooterData { columns?: FooterCol[]; copyright?: string; }
-interface SiteData { brandName: string; phone: string; email: string; address: string; logo?: string; social?: { facebook?: string; youtube?: string; linkedin?: string; } }
+interface SiteData { brandName: string; phone: string; email: string; address: string; logo?: string; social?: { facebook?: string; youtube?: string; linkedin?: string; tiktok?: string; } }
 interface Props { data?: FooterData; site?: SiteData; }
 
 const DEFAULT_COLS = [
@@ -17,7 +18,7 @@ const DEFAULT_COLS = [
 export default function Footer({ data, site }: Props) {
   const brand = site?.brandName || "APEC GLOBAL";
   const contact = { phone: site?.phone || "1800 1234", email: site?.email || "info@apecglobal.vn", address: site?.address || "Tầng 15, Apec Tower, 39 Láng Hạ, Hà Nội" };
-  const social = site?.social || { facebook: "#", youtube: "#", linkedin: "#" };
+  const social = site?.social || { facebook: "#", youtube: "#", linkedin: "#", tiktok: "#" };
   const cols = data?.columns && data.columns.length > 0 ? data.columns : DEFAULT_COLS;
   const copyright = data?.copyright || `© ${new Date().getFullYear()} APEC Global. Tất cả quyền được bảo lưu.`;
 
@@ -47,6 +48,9 @@ export default function Footer({ data, site }: Props) {
               <a href={social.facebook} style={{ width: 36, height: 36, borderRadius: "50%", background: "rgba(255,255,255,0.05)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", transition: "background 0.2s" }} onMouseOver={e => e.currentTarget.style.background = "#2563eb"} onMouseOut={e => e.currentTarget.style.background = "rgba(255,255,255,0.05)"}><Facebook size={16} /></a>
               <a href={social.youtube} style={{ width: 36, height: 36, borderRadius: "50%", background: "rgba(255,255,255,0.05)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", transition: "background 0.2s" }} onMouseOver={e => e.currentTarget.style.background = "#dc2626"} onMouseOut={e => e.currentTarget.style.background = "rgba(255,255,255,0.05)"}><Youtube size={16} /></a>
               <a href={social.linkedin} style={{ width: 36, height: 36, borderRadius: "50%", background: "rgba(255,255,255,0.05)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", transition: "background 0.2s" }} onMouseOver={e => e.currentTarget.style.background = "#0284c7"} onMouseOut={e => e.currentTarget.style.background = "rgba(255,255,255,0.05)"}><Linkedin size={16} /></a>
+              {social.tiktok && (
+                <a href={social.tiktok} style={{ width: 36, height: 36, borderRadius: "50%", background: "rgba(255,255,255,0.05)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", transition: "background 0.2s" }} onMouseOver={e => e.currentTarget.style.background = "#000"} onMouseOut={e => e.currentTarget.style.background = "rgba(255,255,255,0.05)"}><Tiktok size={16} /></a>
+              )}
             </div>
           </div>
 

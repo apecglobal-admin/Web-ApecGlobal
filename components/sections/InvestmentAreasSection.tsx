@@ -5,9 +5,9 @@ import { ArrowUpRight } from "lucide-react";
 import { useInView } from "@/lib/hooks";
 
 interface InvestmentItem { id: string; title: string; desc: string; img: string; }
-interface Props { data?: InvestmentItem[] }
+interface Props { data?: { title?: string; desc?: string; items?: InvestmentItem[] } | InvestmentItem[] }
 
-const DEFAULT_DATA: InvestmentItem[] = [
+const DEFAULT_ITEMS: InvestmentItem[] = [
   { id: "1", title: "BẤT ĐỘNG SẢN", desc: "Phát triển các dự án bất động sản đô thị, khu công nghiệp và nghỉ dưỡng cao cấp với tiêu chuẩn quốc tế.", img: "/images/area-realestate.jpg" },
   { id: "2", title: "NĂNG LƯỢNG TÁI TẠO", desc: "Đầu tư các dự án năng lượng xanh, năng lượng mặt trời và điện gió nhằm hướng tới tương lai bền vững.", img: "/images/area-energy.jpg" },
   { id: "3", title: "SẢN XUẤT CÔNG NGHIỆP", desc: "Thúc đẩy sản xuất thông minh, ứng dụng công nghệ tự động hóa vào dây chuyền sản xuất.", img: "/images/area-manufacturing.jpg" },
@@ -17,7 +17,9 @@ const DEFAULT_DATA: InvestmentItem[] = [
 
 export default function InvestmentAreasSection({ data }: Props) {
   const { ref, isInView } = useInView(0.1);
-  const items = data && data.length > 0 ? data : DEFAULT_DATA;
+  const items = Array.isArray(data) ? data : (data?.items || DEFAULT_ITEMS);
+  const title = !Array.isArray(data) && data?.title ? data.title : "Lĩnh Vực Đầu Tư";
+  const desc = !Array.isArray(data) && data?.desc ? data.desc : "Tập trung vào các lĩnh vực cốt lõi mang lại giá trị gia tăng cao và bền vững cho nền kinh tế.";
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
@@ -25,11 +27,11 @@ export default function InvestmentAreasSection({ data }: Props) {
       <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 1, background: "linear-gradient(90deg,transparent,rgba(37,99,235,0.3),transparent)" }} />
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: "0 20px" }}>
         <div style={{ textAlign: "center", marginBottom: 50 }}>
-          <motion.h2 initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }} style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.8rem,3vw,2.4rem)", marginBottom: 16 }}>
-            Lĩnh Vực <span style={{ color: "#38bdf8" }}>Đầu Tư</span>
+          <motion.h2 initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }} style={{ fontFamily: "Montserrat,sans-serif", fontWeight: 900, fontSize: "clamp(1.8rem,3vw,2.4rem)", marginBottom: 16, whiteSpace: "pre-line" }}>
+            {title}
           </motion.h2>
-          <motion.p initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: 0.1 }} style={{ color: "#94a3b8", fontSize: 14, maxWidth: 600, margin: "0 auto", lineHeight: 1.6 }}>
-            Tập trung vào các lĩnh vực cốt lõi mang lại giá trị gia tăng cao và bền vững cho nền kinh tế.
+          <motion.p initial={{ opacity: 0, y: 20 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: 0.1 }} style={{ color: "#94a3b8", fontSize: 14, maxWidth: 600, margin: "0 auto", lineHeight: 1.6, whiteSpace: "pre-wrap" }}>
+            {desc}
           </motion.p>
         </div>
 
