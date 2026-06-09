@@ -3,7 +3,7 @@
     "id": "1",
     "icon": "MapPin",
     "value": "33",
-    "label": "Tỉnh thành phủ sóng 1"
+    "label": "Tỉnh thành phủ sóng"
   },
   {
     "id": "2",
@@ -19,7 +19,7 @@
   },
   {
     "id": "4",
-    "icon": "Globe2",
+    "icon": "Globe",
     "value": "5+",
     "label": "Đối tác toàn cầu"
   }

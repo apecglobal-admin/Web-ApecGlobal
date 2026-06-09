@@ -3,25 +3,60 @@
     {
       "title": "VỀ CHÚNG TÔI",
       "links": [
-        { "label": "Giới thiệu", "href": "/gioi-thieu" },
-        { "label": "Tầm nhìn & Sứ mệnh", "href": "/gioi-thieu" },
-        { "label": "Bộ Gen Lãnh Đạo", "href": "/gioi-thieu" }
+        {
+          "label": "Giới thiệu",
+          "href": "/gioi-thieu"
+        },
+        {
+          "label": "Tầm nhìn & Sứ mệnh",
+          "href": "/gioi-thieu"
+        },
+        {
+          "label": "Bộ Gen Lãnh Đạo",
+          "href": "/gioi-thieu"
+        }
       ]
     },
     {
       "title": "HỆ SINH THÁI",
       "links": [
-        { "label": "Siêu ứng dụng APEC SPACE", "href": "/he-sinh-thai" },
-        { "label": "Chuỗi siêu thị ECOOP", "href": "/he-sinh-thai" },
-        { "label": "Thẻ An sinh 3IN1", "href": "/he-sinh-thai" }
+        {
+          "label": "Siêu ứng dụng APEC SPACE",
+          "href": "/he-sinh-thai"
+        },
+        {
+          "label": "Tổng Kho ECOOP",
+          "href": "/he-sinh-thai"
+        },
+        {
+          "label": "Siêu Thẻ ApecSpace",
+          "href": "/he-sinh-thai"
+        }
       ]
     },
     {
       "title": "WEBSITE LIÊN KẾT",
       "links": [
-        { "label": "Tập đoàn: apecglobal.net", "href": "https://apecglobal.net" },
-        { "label": "Tập đoàn: apecglobal.vn", "href": "https://apecglobal.vn" },
-        { "label": "Sàn TMĐT: ecoop.vn", "href": "https://ecoop.vn" }
+        {
+          "label": "Tổng Kho Ecoop",
+          "href": "https://ecoop.vn"
+        },
+        {
+          "label": "Siêu Ứng Dụng ApecSpace",
+          "href": "https://apecspace.com"
+        },
+        {
+          "label": "Xúc Tiến Thương Mại APECBCI",
+          "href": "https://apecbci.com"
+        },
+        {
+          "label": "An Ninh Vệ Sĩ 5.0",
+          "href": "https://namthienlong.com"
+        },
+        {
+          "label": "Cổng Thông Tin Chung",
+          "href": "https://apecglobal.vn"
+        }
       ]
     }
   ],

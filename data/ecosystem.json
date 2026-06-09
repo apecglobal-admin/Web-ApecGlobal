@@ -1,12 +1,12 @@
 {
-  "bannerLabel": "Ecosystem 1",
-  "bannerTitle": "Hệ Sinh Thái APEC Global 1",
-  "bannerDesc": "Hệ sinh thái đa ngành kết nối Công nghệ – Tài chính – Thương mại – Dịch vụ, tạo giá trị bền vững 1",
+  "bannerLabel": "Ecosystem",
+  "bannerTitle": "Hệ Sinh Thái APEC Global",
+  "bannerDesc": "Hệ sinh thái đa ngành kết nối Công nghệ – Tài chính – Thương mại – Dịch vụ, tạo giá trị bền vững",
   "items": [
     {
       "id": "1",
       "icon": "💻",
-      "title": "CÔNG NGHỆ 1",
+      "title": "CÔNG NGHỆ",
       "sub": "Core System",
       "color": "#1d4ed8",
       "desc": "Kiến tạo giá trị bền vững và đồng hành cùng sự phát triển thịnh vượng thông qua các giải pháp công nghệ tiên tiến như AI, Blockchain và hạ tầng Supabase. 1",

@@ -1,13 +1,13 @@
 {
   "headline1": "KIẾN TẠO GIÁ TRỊ",
-  "headline2": "LÀM CHỦ TƯƠNG LAI",
-  "sloganEn": "Creating Value – Owning the Future",
+  "headline2": "CHINH PHỤC ĐỈNH CAO",
+  "sloganEn": "Creating Value – Conquering Peaks",
   "description": "ApecGlobal đầu tư vào các lĩnh vực trọng điểm,\nkiến tạo giá trị bền vững và đồng hành cùng\nsự phát triển thịnh vượng.",
-  "backgroundImage": "/images/intro-background.png",
-  "enterButtonText": "VÀO TRANG CHỦ",
+  "backgroundImage": "/uploads/1780986539607-qry25l.png",
+  "enterButtonText": "WELCOME APEC GLOBAL 2026",
   "navButtons": [
     {
-      "icon": "/uploads/1778481417083-vhd8gd.jpg",
+      "icon": "/uploads/1780986429857-qnjm97.png",
       "label": "GIỚI THIỆU",
       "sub": "TỔNG QUAN",
       "href": "/gioi-thieu"

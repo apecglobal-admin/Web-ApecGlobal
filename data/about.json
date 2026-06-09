@@ -1,96 +1,96 @@
 {
-  "sectionLabel": "VỀ APECGLOBAL 1",
-  "bannerLabel": "Về chúng tôi 1",
-  "bannerTitle": "Giới Thiệu APEC Global 1 ",
-  "bannerDesc": "Tập đoàn đầu tư đa ngành hàng đầu Việt Nam – Kiến tạo giá trị, sở hữu tương lai 1",
+  "sectionLabel": "VỀ APECGLOBAL",
+  "bannerLabel": "Về chúng tôi",
+  "bannerTitle": "Giới Thiệu APEC Global",
+  "bannerDesc": "Tập đoàn đầu tư đa ngành hàng đầu Việt Nam – Kiến tạo giá trị, sở hữu tương lai",
   "officeImg": "/images/area-realestate.jpg",
-  "officeTitle": "Trụ sở APEC Global 1",
-  "officeAddress": "Tầng 15, Apec Tower, Hà Nội 1",
-  "heading": "Kiến tạo giá trị vững bền – Đồng hành phát triển dài hạn 1",
-  "description1": "Công ty CP Tập đoàn Kinh tế ApecGlobal, ĐKKD cấp ngày 29/12/2009, MST: 0309563826. Chủ tịch HĐQT: Ông Nguyễn Ngọc Tùng 1. ",
+  "officeTitle": "Trụ sở APEC Global",
+  "officeAddress": "Số 4 Lê Tuấn Mậu, Phường Phú Lâm, TP Hồ Chí Minh, Việt Nam",
+  "heading": "Kiến tạo giá trị vững bền – Đồng hành phát triển dài hạn",
+  "description1": "Công ty CP Tập đoàn Kinh tế ApecGlobal, ĐKKD cấp ngày 29/12/2009, MST: 0309563826. Chủ tịch HĐQT: Ông Nguyễn Ngọc Tùng. ",
   "description2": "Bộ Gen Lãnh Đạo ApecGlobal (10 Tố chất): \n• Tầm nhìn \n• Chiến lược \n• Tư duy đột phá \n• Sự kiên định \n• Quyết đoán \n• Chính trực \n• Kỹ năng lãnh đạo \n• Nghệ thuật lãnh đạo \n• Khả năng đàm phán và thuyết phục \n• Khả năng truyền cảm hứng.",
   "vision": {
-    "title": "TẦM NHÌN 1",
+    "title": "TẦM NHÌN",
     "content": "Trong 5-10 năm tới, ApecGlobal hướng tới mục tiêu trở thành một trong 10 Tập đoàn TMĐT lớn nhất khu vực; trở thành Tập đoàn tỷ đô, đa lĩnh vực, đa quốc gia."
   },
   "mission": {
-    "title": "SỨ MỆNH 1",
+    "title": "SỨ MỆNH",
     "content": "Đột phá về giải pháp – Giúp cộng đồng phát triển vững bền và kiến tạo sự an sinh xã hội thông qua công nghệ thông minh và sự kết nối bền vững."
   },
   "coreValues": [
     {
       "icon": "Sun",
-      "label": "Tâm Sáng 1",
-      "desc": "Tâm phải sáng thì Tầm mới cao. 1"
+      "label": "Tâm Sáng",
+      "desc": "Tâm phải sáng thì Tầm mới cao."
     },
     {
       "icon": "Heart",
-      "label": "Tâm Huyết 1",
-      "desc": "Khát vọng - Đam mê - Tinh thần trách nhiệm cao. 1"
+      "label": "Tâm Huyết",
+      "desc": "Khát vọng - Đam mê - Tinh thần trách nhiệm cao."
     },
     {
       "icon": "HandHeart",
-      "label": "Tâm Khởi 1",
-      "desc": "Cho là nhận - Tất cả vì sức khỏe và Lợi ích cộng đồng. 1"
+      "label": "Tâm Khởi",
+      "desc": "Cho là nhận - Tất cả vì sức khỏe và Lợi ích cộng đồng."
     },
     {
       "icon": "Brain",
-      "label": "Tâm Thức 1",
+      "label": "Tâm Thức",
       "desc": "Thấu hiểu Nội tâm - từ Trái tim đến Trái tim."
     },
     {
       "icon": "Users",
-      "label": "Tâm Đạo 1",
-      "desc": "Chân thành - Yêu thương và Chia sẻ. 1"
+      "label": "Tâm Đạo",
+      "desc": "Chân thành - Yêu thương và Chia sẻ."
     }
   ],
   "timeline": [
     {
       "year": "2015",
-      "title": "Thành lập APEC Global 1",
-      "desc": "Bắt đầu hành trình với tầm nhìn trở thành tập đoàn đầu tư hàng đầu Việt Nam 1"
+      "title": "Thành lập APEC Global",
+      "desc": "Bắt đầu hành trình với tầm nhìn trở thành tập đoàn đầu tư hàng đầu Việt Nam"
     },
     {
       "year": "2017",
-      "title": "Mở rộng hệ sinh thái 1",
-      "desc": "Phát triển hệ sinh thái đa ngành: Công nghệ, Tài chính, Thương mại 1"
+      "title": "Mở rộng hệ sinh thái",
+      "desc": "Phát triển hệ sinh thái đa ngành: Công nghệ, Tài chính, Thương mại"
     },
     {
       "year": "2019",
-      "title": "Hợp tác quốc tế 1",
-      "desc": "Ký kết hợp tác chiến lược với các đối tác tại 5 quốc gia châu Á 1"
+      "title": "Hợp tác quốc tế",
+      "desc": "Ký kết hợp tác chiến lược với các đối tác tại 5 quốc gia châu Á"
     },
     {
       "year": "2021",
-      "title": "APEC Tech & APEC Capital 1",
-      "desc": "Ra mắt hai công ty con chủ lực trong lĩnh vực công nghệ và tài chính 1"
+      "title": "APEC Tech & APEC Capital",
+      "desc": "Ra mắt hai công ty con chủ lực trong lĩnh vực công nghệ và tài chính"
     },
     {
       "year": "2023",
-      "title": "Vươn tầm khu vực 1",
-      "desc": "Mở rộng hoạt động sang 7 quốc gia, vốn đầu tư đạt 2.868 tỷ VNĐ 1"
+      "title": "Vươn tầm khu vực",
+      "desc": "Mở rộng hoạt động sang 7 quốc gia, vốn đầu tư đạt 2.868 tỷ VNĐ"
     }
   ],
   "leaders": [
     {
-      "name": "Nguyễn Văn A 1",
+      "name": "Mr. Nguyễn Ngọc Tùng",
       "role": "Chủ tịch HĐQT",
-      "img": "/images/area-tech.jpg"
+      "img": "/uploads/1778834751537-xc2hta.png"
     },
     {
-      "name": "Trần Thị B 1",
-      "role": "Tổng Giám Đốc 1",
-      "img": "/images/area-realestate.jpg"
+      "name": "Ms. Nguyễn Thị Nhi Hằng",
+      "role": "Tổng Giám Đốc",
+      "img": "/uploads/1778834801170-cshg2k.png"
     },
     {
-      "name": "Lê Văn C 1",
-      "role": "Phó TGĐ Tài Chính 1",
-      "img": "/images/area-energy.jpg"
+      "name": "Ms. Nguyễn Thu Hiền",
+      "role": "Phó TGĐ Vận Hành",
+      "img": "/uploads/1778834976848-j37q4z.png"
     },
     {
-      "name": "Phạm Thị D 1",
-      "role": "Phó TGĐ Công Nghệ 1",
-      "img": "/images/area-manufacturing.jpg"
+      "name": "Ms. Hoàng Thị Thu Hiền",
+      "role": "Phó TGĐ Phát Triển Thị Trường",
+      "img": "/uploads/1778835032364-vlvqqb.png"
     }
   ]
 }

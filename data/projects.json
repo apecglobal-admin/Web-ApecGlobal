@@ -1,18 +1,18 @@
 {
-  "bannerLabel": "Projects 1",
-  "bannerTitle": "Dự Án Đầu Tư 1",
-  "bannerDesc": "Danh mục các dự án tiêu biểu đã và đang đầu tư của APEC Global trên toàn quốc 1",
+  "bannerLabel": "Projects",
+  "bannerTitle": "Dự Án Đầu Tư",
+  "bannerDesc": "Danh mục các dự án tiêu biểu đã và đang đầu tư của APEC Global trên toàn quốc",
   "items": [
     {
       "id": "1",
-      "name": "Siêu ứng dụng APEC SPACE 1",
-      "sector": "Công nghệ 1",
+      "name": "Siêu ứng dụng APEC SPACE",
+      "sector": "Công nghệ",
       "status": "Đang vận hành",
-      "loc": "Toàn quốc 1",
-      "cap": "200 tỷ",
-      "year": "2024",
-      "img": "/images/area-tech.jpg",
-      "desc": "Super App thế kỷ 4.0 tích hợp siêu thị không gian 3D, thanh toán ví App-in-App, và AI Agent tự động chăm sóc khách hàng. 1"
+      "loc": "Toàn quốc",
+      "cap": "120 tỷ",
+      "year": "2023",
+      "img": "/uploads/1778830201071-e1c455.png",
+      "desc": "Super App thế kỷ 5.0 tích hợp siêu thị không gian 3D, thanh toán ví App-in-App, và AI Agent tự động chăm sóc khách hàng."
     },
     {
       "id": "2",
@@ -20,9 +20,9 @@
       "sector": "Thương mại",
       "status": "Đang triển khai",
       "loc": "34 Tỉnh thành",
-      "cap": "500 tỷ",
-      "year": "2025",
-      "img": "/images/area-logistics.jpg",
+      "cap": "116 tỷ",
+      "year": "2022",
+      "img": "/uploads/1778835592420-m93wvx.png",
       "desc": "Hệ thống chuỗi siêu thị, tổng kho và cửa hàng bán lẻ đa tiện ích, là mắt xích vật lý của nền kinh tế chia sẻ."
     },
     {
@@ -33,8 +33,63 @@
       "loc": "Toàn quốc",
       "cap": "100 tỷ",
       "year": "2024",
-      "img": "/images/area-realestate.jpg",
+      "img": "/uploads/1778835575620-kia6v4.png",
       "desc": "Thẻ an sinh 3IN1 và Thẻ Apec Business mang đến các đặc quyền hỗ trợ chi phí sinh hoạt và khởi nghiệp cho cộng đồng. 1"
+    },
+    {
+      "id": "1778830462855",
+      "name": "Vệ Sĩ Công Nghệ Nam Thiên Long",
+      "sector": "An Ninh Công Nghệ",
+      "status": "Đang đầu tư",
+      "loc": "Toàn Quốc",
+      "cap": "16 tỷ",
+      "year": "2004",
+      "img": "/uploads/1778836517042-mch4is.png",
+      "desc": "Bảo vệ sĩ chuyên nghiệp kế hợp hệ thống an ninh công nghệ cao"
+    },
+    {
+      "id": "1778831432900",
+      "name": "CLB Sinh Viên Khởi Nghiệp",
+      "sector": "Phát Triển Cộng Đồng",
+      "status": "Đang đầu tư",
+      "loc": "KHU VỰC MIỀN NAM",
+      "cap": "16 tỷ",
+      "year": "2024",
+      "img": "/uploads/1778837324592-f3qu7r.png",
+      "desc": "Giúp sinh viên có sân chơi phát triển bản thân, khởi nghiệp và sáng tạo"
+    },
+    {
+      "id": "1778831647016",
+      "name": "CLB Sức Khỏe Life Care",
+      "sector": "Sức Khoẻ",
+      "status": "Đang đầu tư",
+      "loc": "Toàn Quốc",
+      "cap": "170 tỷ",
+      "year": "2022",
+      "img": "/uploads/1778837842450-06aavz.png",
+      "desc": "Hướng dẫn cộng đồng bảo vệ sức khỏe, khám chữa bệnh bằng Đông y"
+    },
+    {
+      "id": "1778832961936",
+      "name": "Hội Liên Hiệp TM Apec BCI",
+      "sector": "Xúc Tiến Thương Mại",
+      "status": "Đang đầu tư",
+      "loc": "Toàn Quốc",
+      "cap": "16 tỷ",
+      "year": "2023",
+      "img": "/uploads/1778838776785-be1ufq.png",
+      "desc": "Trung Tâm Xúc Tiến Thương Mại Toàn Cầu"
+    },
+    {
+      "id": "1778833151196",
+      "name": "Công ty CP Sức Khỏe Sắc Đẹp KLT",
+      "sector": "Sản Xuất",
+      "status": "Đang đầu tư",
+      "loc": "Toàn Quốc",
+      "cap": "68 tỷ",
+      "year": "2021",
+      "img": "/uploads/1778839526735-ez3xvm.png",
+      "desc": "Sản xuất thuốc, dược phẩm, trà thảo mộc"
     }
   ]
 }
